@@ -106,17 +106,18 @@
 
 					</div>
 					<div class="header-bottom">
-						<div class="logo"><a href="index.php"><img name="logo" src="{{asset('speedtrust.online/assets/images/logo.png')}}" width="225" height="64" alt=""></a></div>
+						<div class="logo"><a href="/"><img name="logo" src="{{asset('assets/img/logo/logo.png')}}" width="225" height="64" alt=""></a></div>
 						<div class="head">
 							<ul>
 								<li class="hb">
 									<h5>EMAIL SUPPORT</h5>
-									<p>support@rainbowpresscourier.com<a href="support@rainbowpresscourier.com">
+									<p>support@atlasdelivery-service.com
+<a href="support@atlasdelivery-service.com">
 </a></p>
 								</li>
 								<li class="hb">
 									<h5>call SUPPORT</h5>
-									<p>+1 614 285 4310 </p>
+									<p>+ 1 701 501 7871 </p>
 								</li>
 								<li class="hb">
 									<h5>working hours</h5>
@@ -142,8 +143,8 @@
 							<nav class="rm-nav rm-nojs rm-lighten">
 								<ul>
 									<li class="active"><a href="index.php">home</a></li>
-									<li><a href="track.php">Tracking</a></li>
-									<li><a href="services.php">services <i class="fa fa-angle-down"></i></a>
+									<li><a href="services.html">services</a></li>
+									<!-- <li><a href="services.php">services <i class="fa fa-angle-down"></i></a>
 										<ul>
 											<li><a href="trucking.php">Trucking Service</a></li>
 											<li><a href="ground.php">Ground Transport</a></li>
@@ -152,9 +153,9 @@
 											<li><a href="sea_freight.php">Sea Freight</a></li>
 											<li><a href="customs.php">Customs Brokerage</a></li>
 										</ul>
-									</li>
-									<li><a href="about-us.php">about us</a></li>
-									<li><a href="contact.php">contact </a></li>
+									</li> -->
+									<li><a href="about.html">about us</a></li>
+									<li><a href="contact.html">contact </a></li>
 								</ul>
 							</nav>
 						</div><!-- .rm-container -->
@@ -913,7 +914,7 @@ visibility: visible;
 					<div class="row">
 						<div class="col-md-4 col-sm-6">
 							<div class="widget">
-								<div class="flogo"><img name="logof" src="assets/images/logof.png" width="225" height="64" alt=""></div>
+								<div class="flogo"><img name="logof" src="{{asset('assets/img/logo/logo.png')}}" width="225" height="64" alt=""></div>
 								<p>Rainbow Express with ocean and air freight forwarding and contract logistics as its pillars, and by taking advantage of a network spanning more than 47 locations in 43 countries around the world, is meeting the increasingly diverse and sophisticated requests of customers.</p>
 							</div>
 						</div>
@@ -932,16 +933,17 @@ visibility: visible;
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="widget">
-								<h5 class="f-title">get in touch</h5>
+								<h5 class="f-title">Get in touch</h5>
 								<div class="f-content">
 									<ul>
-										<li><i class="fa fa-map-marker"></i>
+										<li><i class="fa fa-map-marker"></i>1907 4th Ave, West Fargo, ND 58078
 																					</li> <br>
 
-										<li><i class="fa fa-phone"></i> +1 614 285 4310 </li> <br>
+										<li><i class="fa fa-phone"></i> + 1 701 501 7871 </li> <br>
 
 
-										<li><i class="fa fa-envelope"></i> support@rainbowpresscourier.com <a href="#"></a>
+										<li><i class="fa fa-envelope"></i> support@atlasdelivery-service.com
+<a href="#"></a>
 										</li>
 
 									</ul>

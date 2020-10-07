@@ -102,7 +102,7 @@ class PeopleController extends VoyagerBaseController
 
     $invoice = 'INV-'. uniqidReal() ;
 
-        $trackingid = 'GPC-'.uniqidReal() ;
+        $trackingid = 'ADS-'.uniqidReal() ;
 
         $dataemail = array(
             'email' => $data->email,
@@ -291,7 +291,7 @@ function doPostRequest($url, $arr_params, $headers = array('Content-Type: applic
 
           $comment = $data->comment;
           Tracking::where('people_id','=', $id)->create(['location_service_area' => $currentlocation , 'checkpoint_details' => $comment , 'date' => $update, 'people_id' => $id  ]);
- 
+
 $dataemail = array(
     'email' => $data->email,
     'name' =>  $data->reciever_name,
