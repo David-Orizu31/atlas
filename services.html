@@ -21,6 +21,10 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/animate.css/3.7.2/animate.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
    </head>
 
    <body>
@@ -46,7 +50,7 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>     
-                                        <li>Phone: +99 (0) 101 0000 888</li>
+                                        <li>Phone: + 1 701 501 7871</li>
                                         <li>Email: noreply@yourdomain.com</li>
                                     </ul>
                                 </div>
@@ -108,6 +112,64 @@
        </div>
         <!-- Header End -->
     </header>
+
+    <a href="https://api.whatsapp.com/send?phone=17015017871&text=Atlas Delivery Services" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+
+        <style>
+    .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+        </style>
+
+<div class="modal animated bounceIn" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Ship with Atlas</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="assets/img/service/ship animation.gif" style="width: 100%;" class="img img-responsive" alt="">
+                    </div>
+                     <div class="col-md-7">
+                        <h4 style="color: #ff5f13;">Get the best shipping services from Atlas Delivery Services.</h4>
+                            <p>Offers you the best first class services comfortably and conveniently.</p>
+                            <h5>Don't Hesitate! Book your ticket now!</h5>
+                     </div>
+                </div>
+            </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <main>
         <!--? slider Area Start-->
         <div class="slider-area ">
@@ -298,12 +360,12 @@
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">GThe trade war currently ensuing between te US anfd several natxions around thdhe globe, most fiercely with.</p>
+                                        <p class="info1">ATLAS DELIVERY SERVICES <br> 1907 4th Ave, West Fargo, ND 58078</p>
                                     </div>
                                 </div>
                                 <!-- Footer Social -->
                                 <div class="footer-social ">
-                                    <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fas fa-globe"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -365,6 +427,17 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+
+        <!-- Pop Up modal Queries -->
+        <script src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudfare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(window).on('load',function(){
+                setTimeout(function(){
+                    $('#myModal').modal('show')
+                }, 3000); // 3000 = 3seconds
+            });
+        </script>
         
     </body>
 </html>
