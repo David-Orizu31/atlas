@@ -1,6 +1,6 @@
-<meta http-equiv="refresh" content="0;url=rainbowexpress/index.html" />
-<title>Hold</title>
+<meta http-equiv="refresh" content="0;url=/index.html" />
+<title>Welcome</title>
 </head>
 <body>
-This page has moved. Click <a href="index.html">here</a> to go to the new page.
+
 
